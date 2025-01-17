@@ -4,7 +4,7 @@ import { JetBrains_Mono } from 'next/font/google'
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'CS Student Portfolio',
+  title: 'Dewmina.',
   description: 'A portfolio showcasing my computer science projects and skills',
 }
 
