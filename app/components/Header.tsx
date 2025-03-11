@@ -11,6 +11,7 @@ export default function Header() {
           <li><Link href="#about" className="hover:text-secondary">About</Link></li>
           <li><Link href="#skills" className="hover:text-secondary">Skills</Link></li>
           <li><Link href="#projects" className="hover:text-secondary">Projects</Link></li>
+          <li><Link href="#projects" className="hover:text-secondary">Resume</Link></li>
           <li><Link href="#contact" className="hover:text-secondary">Contact</Link></li>
         </ul>
       </nav>
