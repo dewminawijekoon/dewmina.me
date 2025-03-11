@@ -1,22 +1,19 @@
-export default function Resume() {
-    return (
-      <section id="about" className="mb-16">
-        <h2 className="section-title">About_Me</h2>
-        <div className="card">
-          <p>
+"use client"
+
+export default function CVDownload() {
+  return (
+    <section className="mb-16 text-center">
+      <div className="card flex flex-col items-center justify-center py-8">
+        <h2 className="section-title">Resume</h2>
+        <p className="mb-6 max-w-md">
           Want to learn more about my qualifications and experience? Download my complete CV below.
-          </p>
-          <a
-          href="https://drive.google.com/file/d/1E8gOyZQd3Oy103deXWDfUMqNN03ioLf_/view?usp=drive_link"
-          download="Dewmina_Wijekoon_CV.pdf"
-          className="flex items-center gap-2 bg-primary bg-opacity-20 hover:bg-opacity-30 text-primary px-6 py-3 rounded-custom transition-all duration-200 hover:scale-105"
-        >
+        </p>
+        <a href="https://drive.google.com/file/d/1E8gOyZQd3Oy103deXWDfUMqNN03ioLf_/view?usp=drive_link" download="Dewmina_Wijekoon_CV.pdf" className="btn-primary btn-lg">
+          
           <span className="font-medium">Download CV</span>
         </a>
-          <br/>
-        </div>
-      </section>
-    )
-  }
-  
-  
+      </div>
+    </section>
+  )
+}
+
