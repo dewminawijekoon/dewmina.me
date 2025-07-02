@@ -1,7 +1,23 @@
 export default function Skills() {
   const skills = [
-    'JavaScript', 'Python', 'Java', 'C++', 'React', 'Node.js', 'SQL', 'Git', 'TypeScript', 'FastAPI', 'Docker', 'REST APIs', 'MySQL'
-  ];
+  "Python",
+  "Java",
+  "C++",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Node.js",
+  "FastAPI",
+  "REST APIs",
+  "MySQL",
+  "MongoDB",
+  "PyTorch",
+  "Pandas",
+  "OpenCV",
+  "LangFlow",
+  "Docker",
+  "Git" 
+]
 
   return (
     <section id="skills" className="mb-16">

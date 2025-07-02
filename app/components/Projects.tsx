@@ -1,6 +1,11 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Freenect Python Package',
+      description: 'A modern Python 3-compatible wrapper for libfreenect, providing access to Microsoft Kinect v1 functionality.',
+      link: 'https://github.com/dewminawijekoon/freenect-python'
+    },
+    {
       title: 'Human Resource Management System',
       description: 'A full-stack application for managing employee records, built with Vite.js for the frontend and FastAPI for the backend, and MySQL for the database.',
       link: 'https://github.com/dewminawijekoon/HRMS_DataBase_Project'

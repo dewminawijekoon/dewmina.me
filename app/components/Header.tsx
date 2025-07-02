@@ -8,10 +8,11 @@ export default function Header() {
           Dewmina.
         </Link>
         <ul className="flex space-x-4">
+          <li><Link href="https://dewmina.bearblog.dev/" className="hover:text-secondary">Blog</Link></li>
           <li><Link href="#about" className="hover:text-secondary">About</Link></li>
           <li><Link href="#skills" className="hover:text-secondary">Skills</Link></li>
           <li><Link href="#projects" className="hover:text-secondary">Projects</Link></li>
-          <li><Link href="#projects" className="hover:text-secondary">Resume</Link></li>
+          <li><Link href="#resume" className="hover:text-secondary">Resume</Link></li>
           <li><Link href="#contact" className="hover:text-secondary">Contact</Link></li>
         </ul>
       </nav>
