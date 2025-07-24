@@ -11,22 +11,45 @@
   --border-radius: 0.5rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--background);
   color: var(--foreground);
+  overflow-x: hidden;
 }
 
 @layer components {
   .section-title {
-    @apply text-2xl font-bold mb-4 text-primary;
+    @apply text-xl md:text-2xl lg:text-3xl font-bold mb-4 md:mb-6 text-primary;
   }
   
   .card {
-    @apply bg-opacity-10 bg-white p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
+    @apply bg-opacity-10 bg-white p-4 md:p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02];
     border-radius: var(--border-radius);
   }
+  
   .rounded-custom {
     border-radius: var(--border-radius);
+  }
+
+  /* Mobile-specific improvements */
+  @media (max-width: 768px) {
+    .container {
+      @apply px-3;
+    }
+  }
+
+  /* Smooth scrolling offset for fixed header */
+  .scroll-mt-24 {
+    scroll-margin-top: 6rem;
+  }
+
+  /* Touch-friendly button sizing */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
   }
 }
 
