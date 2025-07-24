@@ -49,7 +49,7 @@ export default function Header() {
         isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-4'
       }`}>
         <nav className="container mx-auto px-4 flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-primary z-30 relative">
+          <Link href="/" className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary z-30 relative">
             Dewmina.
           </Link>
 
